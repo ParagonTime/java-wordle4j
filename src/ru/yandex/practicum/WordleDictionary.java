@@ -1,6 +1,9 @@
 package ru.yandex.practicum;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /*
 этот класс содержит в себе список слов List<String>
@@ -9,6 +12,29 @@ import java.util.List;
  */
 public class WordleDictionary {
 
-    private List<String> words;
+    private final List<String> words; // использовать бинарный поиск для слова
+    // нужна хэш мапа для проверки наличия введенного слова в словаре
+    private final Set<String> setWords;
 
+    public WordleDictionary(List<String> words) {
+        this.words = new ArrayList<>(words);
+        this.setWords = new HashSet<>(words);
+    }
+
+    public String generateWorld() {
+        int numOfWorld = (int) (Math.random() * 10000) % words.size();
+        return words.get(numOfWorld);
+    }
+
+    public boolean contains(String word) throws WordNotFoundInDictionary {
+        return setWords.contains(word);
+    }
+
+    public String get(int numWord) {
+        return words.get(numWord);
+    }
+
+    public int size() {
+        return words.size();
+    }
 }
