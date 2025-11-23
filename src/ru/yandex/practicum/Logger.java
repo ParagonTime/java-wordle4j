@@ -8,7 +8,7 @@ import java.nio.file.StandardOpenOption;
 
 public class Logger {
 
-    private Path pathFile;
+    private final Path pathFile;
 
     public Logger(String logFile) throws IOException {
         Path path = Paths.get(logFile);

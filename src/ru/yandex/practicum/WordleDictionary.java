@@ -26,16 +26,12 @@ public class WordleDictionary {
         return words.get(numOfWorld);
     }
 
-    public boolean contains(String word) throws WordNotFoundInDictionary {
+    public boolean contains(String word) {
         return setWords.contains(word);
     }
 
     public String get(int numWord) {
         return words.get(numWord);
-    }
-
-    public int size() {
-        return words.size();
     }
 
     public List<String> getDictionaryList() {

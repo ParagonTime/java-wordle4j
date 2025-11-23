@@ -3,8 +3,6 @@ package ru.yandex.practicum;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 /*
@@ -21,15 +19,12 @@ import java.util.Scanner;
  */
 public class WordleGame {
 
-    private Scanner scanner;
-    private OutputStream output;
-    private Logger logger;
-    private String answer;
-    private WordleDictionary dictionary;
-    private GameState gameState;
-    private WordleAuto auto;
-    private List<String> userAnswers;
-    private List<String> userAnswersMasks;
+    private final Scanner scanner;
+    private final OutputStream output;
+    private final Logger logger;
+    private final WordleDictionary dictionary;
+    private final GameState gameState;
+    private final WordleAuto auto;
 
     public WordleGame(WordleDictionary dictionary, InputStream input, OutputStream output, Logger logger) throws IOException {
         this.scanner = new Scanner(input);
@@ -38,8 +33,6 @@ public class WordleGame {
         this.logger = logger;
         this.gameState = new GameState();
         auto = new WordleAuto(this.dictionary);
-        userAnswers = new ArrayList<>();
-        userAnswersMasks = new ArrayList<>();
         logger.info("WordleGame - game created");
     }
 
@@ -50,7 +43,7 @@ public class WordleGame {
         // в случае ввода "\n"  - выдает случайное слово из оставшихся
         logger.info("=".repeat(20));
         logger.info("WordleGame - START GAME");
-        answer = dictionary.generateWorld();
+        String answer = dictionary.generateWorld();
         logger.info("dictionary generated secret word - " + answer);
         output.write("Угадайте слово из 5-ти букв:\n".getBytes());
         while (!gameState.isWinGame() && gameState.actualStep() != 0) {
@@ -76,8 +69,6 @@ public class WordleGame {
                 } else {
                     output.write((mask + "\n").getBytes());
                     gameState.decrementStep();
-                    userAnswers.add(userWord);
-                    userAnswersMasks.add(mask);
                 }
             } catch (Exception e) {
                 logger.excepion("WordleGame - " + e.getMessage());

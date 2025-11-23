@@ -6,15 +6,15 @@ import java.util.Set;
 
 public class WordleAuto {
     private List<String> words;
-    private Set<Character> suitable;
-    private Set<Character> unsuitable;
-    private char[] unionPlusMask;
+    private final Set<Character> suitable;
+    private final Set<Character> unsuitable;
+    //private char[] unionPlusMask;
 
     public WordleAuto(WordleDictionary dictionary) {
         this.words = dictionary.getDictionaryList();
         suitable = new HashSet<>();
         unsuitable = new HashSet<>();
-        unionPlusMask = new char[5];
+        //unionPlusMask = new char[5];
     }
 
     public String getAnswerWord() {
@@ -30,7 +30,7 @@ public class WordleAuto {
                     break;
                 case '+':
                     suitable.add(userWord.charAt(i));
-                    unionPlusMask[i] = '+';
+                    //unionPlusMask[i] = '+';
                     break;
                 case '^':
                     suitable.add(userWord.charAt(i));

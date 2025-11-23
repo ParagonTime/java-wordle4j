@@ -10,8 +10,8 @@ import java.util.List;
     на выходе должен быть класс WordleDictionary
  */
 public class WordleDictionaryLoader {
-    private Logger logger;
-    private String worldsFileName;
+    private final Logger logger;
+    private final String worldsFileName;
 
     public WordleDictionaryLoader(Logger logger, String worldsFileName) {
         this.logger = logger;

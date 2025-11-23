@@ -21,7 +21,7 @@ class WordleDictionaryLoaderTest {
     public void testWordDictionaryThrowException() throws IOException {
         Logger logger = new Logger("test_logg.txt");
         WordleDictionaryLoader loader = new WordleDictionaryLoader(logger, "file.txt");
-        RuntimeException exception = assertThrows(
+        assertThrows(
                 RuntimeException.class,
                 loader::getDictionary);
     }
