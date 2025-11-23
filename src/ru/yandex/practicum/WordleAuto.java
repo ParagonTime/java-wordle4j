@@ -8,17 +8,34 @@ public class WordleAuto {
     private List<String> words;
     private final Set<Character> suitable;
     private final Set<Character> unsuitable;
-    //private char[] unionPlusMask;
+    private final char[] unionMask;
 
     public WordleAuto(WordleDictionary dictionary) {
         this.words = dictionary.getDictionaryList();
         suitable = new HashSet<>();
         unsuitable = new HashSet<>();
-        //unionPlusMask = new char[5];
+        unionMask = new char[]{'0', '0', '0', '0', '0'};
     }
 
     public String getAnswerWord() {
-        return words.get((int) (Math.random() * 10000) % words.size());
+        boolean isSuitable = false;
+        String autoAnswer = "гонец";
+        while (!isSuitable) {
+            autoAnswer = words.get((int) (Math.random() * 112342) % words.size());
+            isSuitable = checkSuitable(autoAnswer);
+        }
+        return autoAnswer;
+    }
+
+    private boolean checkSuitable(String word) {
+        for (int i = 0; i < word.length(); i++) {
+            if (unionMask[i] != '0') {
+                if (word.charAt(i) != unionMask[i]) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 
     public void setUserWordAndMask(String userWord, String masks) {
@@ -30,7 +47,7 @@ public class WordleAuto {
                     break;
                 case '+':
                     suitable.add(userWord.charAt(i));
-                    //unionPlusMask[i] = '+';
+                    unionMask[i] = userWord.charAt(i);
                     break;
                 case '^':
                     suitable.add(userWord.charAt(i));
