@@ -18,14 +18,10 @@ public class WordleUtil {
     }
 
     public static String normalizeWord(String word) {
-        // trim
-        // toLowerCase
-        // replace("ё", "е")
         return word.trim().toLowerCase().replaceAll("ё", "е");
     }
 
     public static String getMask(String answer, String userWord) {
-        // придумать алгоритм
         StringBuilder builder = new StringBuilder();
         Set<Character> charSet = new HashSet<>();
         for (char charr : answer.toCharArray()) {
@@ -45,10 +41,6 @@ public class WordleUtil {
     }
 
     public static void checkCorrection(String word) throws WordHaveIncorrectCharacters, WordIncorrectLength {
-        // проверить что в слове только буквы
-        // добавить класс-исключение - некорректные символы в слове exception
-        // выбрасывать исключение
-        // проверить длину слова
         if (!word.matches("^[а-я]+$")) {
             throw new WordHaveIncorrectCharacters("В слове не корректные символы");
         }

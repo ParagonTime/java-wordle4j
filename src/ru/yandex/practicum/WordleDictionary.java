@@ -12,13 +12,13 @@ import java.util.Set;
  */
 public class WordleDictionary {
 
-    private final List<String> words; // использовать бинарный поиск для слова
-    // нужна хэш мапа для проверки наличия введенного слова в словаре
+    private final List<String> words;
     private final Set<String> setWords;
 
     public WordleDictionary(List<String> words) {
         this.words = new ArrayList<>(words);
         this.setWords = new HashSet<>(words);
+
     }
 
     public String generateWorld() {
@@ -36,5 +36,9 @@ public class WordleDictionary {
 
     public int size() {
         return words.size();
+    }
+
+    public List<String> getDictionaryList() {
+        return new ArrayList<>(words);
     }
 }

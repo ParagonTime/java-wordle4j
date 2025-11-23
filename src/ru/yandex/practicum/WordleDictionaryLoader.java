@@ -11,13 +11,15 @@ import java.util.List;
  */
 public class WordleDictionaryLoader {
     private Logger logger;
-    // добавить логирование
-    public WordleDictionaryLoader(Logger logger) {
+    private String worldsFileName;
+
+    public WordleDictionaryLoader(Logger logger, String worldsFileName) {
         this.logger = logger;
+        this.worldsFileName = worldsFileName;
     }
 
-    public WordleDictionary getDictionary(String worldsFileName) {
-
+    public WordleDictionary getDictionary() {
+        logger.info("dictionary loading start");
         List<String> words = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(worldsFileName)))) {
             while (reader.ready()) {
@@ -27,13 +29,15 @@ public class WordleDictionaryLoader {
                 }
             }
         } catch (FileNotFoundException e) {
+            logger.excepion("WordleDictionaryLoader - " + e.getMessage());
             throw new RuntimeException(e); // улучшить обработку исключений
         } catch (IOException e) {
+            logger.excepion("WordleDictionaryLoader - " + e.getMessage());
             throw new RuntimeException(e);
         }
         // использовать утилитный класс для обработки слов
-
-
+        logger.info("dictionary loading completed");
+        logger.info("dictionary has " + words.size() + " words");
         return WordleUtil.getDictionary(words);
     }
 }

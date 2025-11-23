@@ -1,7 +1,6 @@
 package ru.yandex.practicum;
 
 import java.io.IOException;
-import java.util.Scanner;
 
 /*
 в главном классе нам нужно:
@@ -20,11 +19,12 @@ public class Wordle {
     static WordleGame game;
 
     public static void main(String[] args) {
+        // добавить везде логирование
         try {
             logger = new Logger("game_log.txt");
-            dictionaryLoader = new WordleDictionaryLoader(logger);
-            dictionary = dictionaryLoader.getDictionary("words_ru.txt");
-            game = new WordleGame(dictionary, new Scanner(System.in), logger);
+            dictionaryLoader = new WordleDictionaryLoader(logger,"words_ru.txt");
+            dictionary = dictionaryLoader.getDictionary();
+            game = new WordleGame(dictionary, System.in, System.out, logger);
 
             game.run();
         } catch (IOException e) {

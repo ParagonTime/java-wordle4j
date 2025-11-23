@@ -19,12 +19,18 @@ public class Logger {
         }
     }
 
-    public void info(String message) throws IOException {
-        write("INFO: " + message + "\n");
+    public void info(String message) {
+        try {
+            write("INFO: " + message + "\n");
+        } catch (IOException ignored) {
+        }
     }
 
-    public void excepion(String message) throws IOException {
-        write("EXCEPTION: " + message + "\n");
+    public void excepion(String message) {
+        try {
+            write("EXCEPTION: " + message + "\n");
+        } catch (IOException ignored) {
+        }
     }
 
     private void write(String message) throws IOException {
