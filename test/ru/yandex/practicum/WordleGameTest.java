@@ -3,82 +3,88 @@ package ru.yandex.practicum;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 class WordleGameTest {
 
     private WordleDictionary dictionary;
-    private ByteArrayOutputStream outputStream;
     private Logger logger;
 
     @BeforeEach
     void setUp() throws IOException {
-        dictionary = new WordleDictionary(List.of( "гонец", "герой", "мечта"));
-        outputStream = new ByteArrayOutputStream();
+        dictionary = new WordleDictionary(List.of("гонец", "герой", "мечта", "слово", "яблоко"));
         logger = new Logger("test_logg.txt");
     }
 
     @Test
     void testGameCreation() {
-        InputStream input = new ByteArrayInputStream("".getBytes());
-        WordleGame game = new WordleGame(dictionary, input, outputStream, logger);
+        WordleGame game = new WordleGame(dictionary, logger);
         assertNotNull(game);
     }
 
     @Test
-    void testGameWithCorrectWord() throws IOException {
-        String inputWords = "слово\n\n\n\n\n\n";
-        InputStream input = new ByteArrayInputStream(inputWords.getBytes());
-        WordleGame game = new WordleGame(dictionary, input, outputStream, logger);
-
-        game.run();
-
-        String output = outputStream.toString();
-        assertTrue(output.contains("YOU WIN"));
+    void testGameStatus() {
+        WordleGame game = new WordleGame(dictionary, logger);
+        assertTrue(game.status());
     }
 
     @Test
-    void testGameWithIncorrectThenCorrectWord() throws IOException {
-        String inputWords = "wrong\napple\n\n\n\n\n";
-        InputStream input = new ByteArrayInputStream(inputWords.getBytes());
-        WordleGame game = new WordleGame(dictionary, input, outputStream, logger);
-
-        game.run();
-
-        String output = outputStream.toString();
-        assertTrue(output.contains("YOU WIN"));
+    void testGenerateAnswer() {
+        WordleGame game = new WordleGame(dictionary, logger);
+        String answer = game.generateAnswer();
+        assertNotNull(answer);
+        assertFalse(answer.isEmpty());
     }
 
     @Test
-    void testGameWithInvalidWord() throws IOException {
-        String inputWords = "ге0ой\nгыыss\n\n\n\n\n";
-        InputStream input = new ByteArrayInputStream(inputWords.getBytes());
-        WordleGame game = new WordleGame(dictionary, input, outputStream, logger);
+    void testGetMaskWithCorrectWord() throws Exception {
+        WordleGame game = new WordleGame(dictionary, logger);
+        String secret = "гонец";
+        String answer = "гонец";
 
-        game.run();
-
-        String output = outputStream.toString();
-        assertTrue(output.contains("В слове не корректные символы"));
-        assertTrue(output.contains("YOU WIN"));
+        String mask = game.getMask(secret, answer);
+        assertEquals("+++++", mask);
+        assertTrue(game.isWin());
     }
 
     @Test
-    void testGameWithWordNotInDictionary() throws IOException {
-        String inputWords = "типаж\nгонец\n\n\n\n\n";
-        InputStream input = new ByteArrayInputStream(inputWords.getBytes());
-        WordleGame game = new WordleGame(dictionary, input, outputStream, logger);
+    void testGetMaskWithIncorrectWord() throws Exception {
+        WordleGame game = new WordleGame(dictionary, logger);
+        String secret = "гонец";
+        String answer = "герой";
 
-        game.run();
+        String mask = game.getMask(secret, answer);
+        assertNotNull(mask);
+        assertEquals(5, mask.length());
+        assertFalse(game.isWin());
+    }
 
-        String output = outputStream.toString();
-        assertTrue(output.contains("Слова нет в словаре"));
-        assertTrue(output.contains("YOU WIN"));
+    @Test
+    void testGetMaskWithInvalidWord() {
+        WordleGame game = new WordleGame(dictionary, logger);
+        String secret = "гонец";
+        String answer = "ге0ой";
+
+        assertThrows(WordHaveIncorrectCharacters.class, () -> game.getMask(secret, answer));
+    }
+
+    @Test
+    void testGetMaskWithWordNotInDictionary() {
+        WordleGame game = new WordleGame(dictionary, logger);
+        String secret = "гонец";
+        String answer = "типаж";
+
+        assertThrows(WordNotFoundInDictionary.class, () -> game.getMask(secret, answer));
+    }
+
+    @Test
+    void testSetWin() {
+        WordleGame game = new WordleGame(dictionary, logger);
+        assertFalse(game.isWin());
+        game.setWin();
+        assertTrue(game.isWin());
     }
 }

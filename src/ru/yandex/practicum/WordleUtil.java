@@ -21,15 +21,15 @@ public class WordleUtil {
         return word.trim().toLowerCase().replaceAll("ё", "е");
     }
 
-    public static String getMask(String answer, String userWord) {
+    public static String getMask(String secret, String answer) {
         StringBuilder builder = new StringBuilder();
         Set<Character> charSet = new HashSet<>();
-        for (char charr : answer.toCharArray()) {
+        for (char charr : secret.toCharArray()) {
             charSet.add(charr);
         }
-        for (int i = 0; i < userWord.length(); i++) {
-            char charr = userWord.charAt(i);
-            if (charr == answer.charAt(i)) {
+        for (int i = 0; i < answer.length(); i++) {
+            char charr = answer.charAt(i);
+            if (charr == secret.charAt(i)) {
                 builder.append("+");
             } else if (charSet.contains(charr)) {
                 builder.append("^");
