@@ -1,0 +1,1843 @@
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - растр
+INFO: step 6 : user input гонец
+INFO: mask for userWord: -----
+INFO: step 5 : user input булка
+INFO: mask for userWord: ----^
+INFO: step 4 : user input пойма
+INFO: mask for userWord: ----^
+INFO: step 3 : user input акула
+INFO: mask for userWord: ^---^
+INFO: step 2 : user input афина
+INFO: mask for userWord: ^---^
+INFO: step 1 : user input ангина
+EXCEPTION: WordleGame - Слово не из 5 букв
+INFO: step 1 : user input афина
+INFO: mask for userWord: ^---^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - кожье
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - треск
+INFO: step 1 : user input гонец
+INFO: mask for userWord: ---^-
+INFO: step 2 : user input афина
+INFO: mask for userWord: -----
+INFO: step 3 : user input кожье
+INFO: mask for userWord: ^---^
+INFO: step 4 : user input булка
+INFO: mask for userWord: ---^-
+INFO: step 5 : user input спина
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 5 : user input слюна
+INFO: mask for userWord: ^----
+INFO: step 6 : user input просек
+EXCEPTION: WordleGame - Слово не из 5 букв
+INFO: step 6 : user input засек
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 6 : user input кеста
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 6 : user input каска
+INFO: mask for userWord: ^-^^-
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - кокор
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - дайна
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - иодид
+INFO: step 1 : user input позор
+INFO: mask for userWord: -+-^-
+INFO: step 2 : user input гонец
+INFO: mask for userWord: -+---
+INFO: step 3 : user input булка
+INFO: mask for userWord: -----
+INFO: step 4 : user input шопен
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 4 : user input шорох
+INFO: mask for userWord: -+-^-
+INFO: step 5 : user input водка
+INFO: mask for userWord: -++--
+INFO: step 6 : user input самса
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 6 : user input садка
+INFO: mask for userWord: --+--
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - елина
+INFO: step 1 : user input привет
+EXCEPTION: WordleGame - Слово не из 5 букв
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - парни
+INFO: step 1 : user input гоц
+EXCEPTION: WordleGame - Слово не из 5 букв
+INFO: step 1 : user input гонец
+INFO: mask for userWord: --^--
+INFO: step 2 : user input гонец
+INFO: mask for userWord: --^--
+INFO: step 3 : user input булка
+INFO: mask for userWord: ----^
+INFO: step 4 : user input багет
+INFO: mask for userWord: -+---
+INFO: step 5 : user input нарос
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 5 : user input намек
+INFO: mask for userWord: ^+---
+INFO: step 6 : user input водка
+INFO: mask for userWord: ----^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - палуб
+INFO: step 1 : user input gfhy
+EXCEPTION: WordleGame - В слове не корректные символы
+INFO: step 1 : user input парни
+INFO: mask for userWord: ++---
+INFO: step 2 : user input гонец
+INFO: mask for userWord: -----
+INFO: step 3 : user input пазыв
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 3 : user input пачка
+INFO: mask for userWord: ++--^
+INFO: step 4 : user input падеж
+INFO: mask for userWord: ++---
+INFO: step 5 : user input пазыв
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 5 : user input пашло
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 5 : user input гонец
+INFO: mask for userWord: -----
+INFO: step 6 : user input булки
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 6 : user input булка
+INFO: mask for userWord: ^^+-^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - дюшес
+INFO: step 1 : user input палуб
+INFO: mask for userWord: -----
+INFO: step 2 : user input конец
+INFO: mask for userWord: ---+-
+INFO: step 3 : user input висок
+INFO: mask for userWord: --^--
+INFO: step 4 : user input конец
+INFO: mask for userWord: ---+-
+INFO: step 5 : user input капец
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 5 : user input балван
+EXCEPTION: WordleGame - Слово не из 5 букв
+INFO: step 5 : user input идиот
+INFO: mask for userWord: -^---
+INFO: step 6 : user input минор
+INFO: mask for userWord: -----
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - клоун
+INFO: step 1 : user input берег
+INFO: mask for userWord: -----
+INFO: step 2 : user input дрожь
+INFO: mask for userWord: --+--
+INFO: step 3 : user input снопы
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 3 : user input торты
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 3 : user input булки
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 3 : user input бабух
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 3 : user input булка
+INFO: mask for userWord: -^^^-
+INFO: step 4 : user input уловк
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 4 : user input кулон
+INFO: mask for userWord: +^^^+
+INFO: step 5 : user input клоун
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - синие
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -^---
+INFO: step 3 : user input 
+INFO: mask for userWord: -----
+INFO: step 4 : user input 
+EXCEPTION: WordleGame - Index 110 out of bounds for length 67
+INFO: step 4 : user input 
+INFO: mask for userWord: -^---
+INFO: step 5 : user input 
+EXCEPTION: WordleGame - Index 223 out of bounds for length 26
+INFO: step 5 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 5 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 5 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 5 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 5 : user input 
+INFO: mask for userWord: -+--^
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - хунта
+INFO: step 1 : user input синие
+INFO: mask for userWord: --+--
+INFO: step 2 : user input гонец
+INFO: mask for userWord: --+--
+INFO: step 3 : user input булка
+INFO: mask for userWord: -+--+
+INFO: step 4 : user input 
+INFO: mask for userWord: --^++
+INFO: step 5 : user input 
+INFO: mask for userWord: -^^--
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - Index 54 out of bounds for length 52
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - Index 57 out of bounds for length 52
+INFO: step 6 : user input 
+INFO: mask for userWord: ^^^-+
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - камча
+INFO: step 1 : user input хунта
+INFO: mask for userWord: ----+
+INFO: step 2 : user input булка
+INFO: mask for userWord: ---^+
+INFO: step 3 : user input гонец
+INFO: mask for userWord: -----
+INFO: step 4 : user input 
+INFO: mask for userWord: -+^^+
+INFO: step 5 : user input 
+INFO: mask for userWord: -+-^-
+INFO: step 6 : user input 
+INFO: mask for userWord: ---^+
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - завет
+INFO: step 1 : user input гонец
+INFO: mask for userWord: ---+-
+INFO: step 2 : user input синие
+INFO: mask for userWord: ----^
+INFO: step 3 : user input будка
+INFO: mask for userWord: ----^
+INFO: step 4 : user input булки
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 4 : user input слово
+INFO: mask for userWord: ---^-
+INFO: step 5 : user input 
+INFO: mask for userWord: ++--^
+INFO: step 6 : user input 
+INFO: mask for userWord: ^-^^^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - палех
+INFO: step 1 : user input 
+INFO: mask for userWord: ^--^-
+INFO: step 2 : user input 
+INFO: mask for userWord: ^----
+INFO: step 3 : user input 
+INFO: mask for userWord: ^----
+INFO: step 4 : user input 
+INFO: mask for userWord: ^+---
+INFO: step 5 : user input 
+EXCEPTION: WordleGame - Index 119 out of bounds for length 83
+INFO: step 5 : user input 
+INFO: mask for userWord: ^++-^
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+INFO: mask for userWord: -^^-^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - негус
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -+--+
+INFO: step 3 : user input 
+INFO: mask for userWord: ^----
+INFO: step 4 : user input 
+INFO: mask for userWord: -^---
+INFO: step 5 : user input 
+EXCEPTION: WordleGame - Index 139 out of bounds for length 60
+INFO: step 5 : user input 
+INFO: mask for userWord: ^^---
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input приве
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 6 : user input гонец
+INFO: mask for userWord: ^-^^-
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - возок
+INFO: step 1 : user input 
+INFO: mask for userWord: --^--
+INFO: step 2 : user input 
+INFO: mask for userWord: +^-+-
+INFO: step 3 : user input 
+INFO: mask for userWord: +-^+^
+INFO: step 4 : user input 
+INFO: mask for userWord: ++---
+INFO: step 5 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - цепня
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -+^--
+INFO: step 3 : user input 
+EXCEPTION: WordleGame - Index 77 out of bounds for length 74
+INFO: step 3 : user input 
+INFO: mask for userWord: ---^^
+INFO: step 4 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 4 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 4 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 4 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 4 : user input гонец
+INFO: mask for userWord: --^^^
+INFO: step 5 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 5 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 5 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 5 : user input цетан
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 5 : user input булки
+EXCEPTION: WordleGame - Слова нет в словаре
+INFO: step 5 : user input булка
+INFO: mask for userWord: -----
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: step 6 : user input 
+EXCEPTION: WordleGame - null
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гейша
+INFO: step 1 : user input 
+INFO: mask for userWord: ^--^-
+INFO: step 2 : user input 
+INFO: mask for userWord: -^-^-
+INFO: step 3 : user input 
+INFO: mask for userWord: --^^+
+INFO: step 4 : user input 
+INFO: mask for userWord: +--^-
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - иваси
+INFO: step 1 : user input 
+INFO: mask for userWord: -^---
+INFO: step 2 : user input 
+INFO: mask for userWord: ---^-
+INFO: step 3 : user input 
+INFO: mask for userWord: --^-^
+INFO: step 4 : user input 
+INFO: mask for userWord: --^-^
+INFO: step 5 : user input 
+INFO: mask for userWord: ^^^^-
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - чутье
+INFO: step 1 : user input 
+INFO: mask for userWord: ----^
+INFO: step 2 : user input 
+INFO: mask for userWord: ----^
+INFO: step 3 : user input 
+INFO: mask for userWord: -++++
+INFO: step 4 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - загон
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -+^^+
+INFO: step 3 : user input 
+INFO: mask for userWord: -+^^+
+INFO: step 4 : user input 
+INFO: mask for userWord: +^^--
+INFO: step 5 : user input 
+INFO: mask for userWord: ^+^^^
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - рамка
+INFO: step 1 : user input 
+INFO: mask for userWord: ----^
+INFO: step 2 : user input 
+INFO: mask for userWord: -+^-^
+INFO: step 3 : user input 
+INFO: mask for userWord: -+^++
+INFO: step 4 : user input 
+INFO: mask for userWord: ^-^++
+INFO: step 5 : user input 
+INFO: mask for userWord: ^-^-^
+INFO: step 6 : user input 
+INFO: mask for userWord: ^+^^-
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - дзюдо
+INFO: step 1 : user input 
+INFO: mask for userWord: ^--^-
+INFO: step 2 : user input 
+INFO: mask for userWord: +^^^-
+INFO: step 3 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - целое
+INFO: step 1 : user input 
+INFO: mask for userWord: -+---
+INFO: step 2 : user input 
+INFO: mask for userWord: --^--
+INFO: step 3 : user input 
+INFO: mask for userWord: ---^-
+INFO: step 4 : user input 
+INFO: mask for userWord: --+^-
+INFO: step 5 : user input 
+INFO: mask for userWord: -+-^^
+INFO: step 6 : user input 
+INFO: mask for userWord: ^--++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - зайка
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input булка
+INFO: mask for userWord: ---++
+INFO: step 3 : user input гонец
+INFO: mask for userWord: -----
+INFO: step 4 : user input 
+INFO: mask for userWord: ---++
+INFO: step 5 : user input 
+INFO: mask for userWord: ^-^-^
+INFO: step 6 : user input 
+INFO: mask for userWord: ^+-++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гиена
+INFO: step 1 : user input 
+INFO: mask for userWord: ^--^-
+INFO: step 2 : user input 
+INFO: mask for userWord: ^--^^
+INFO: step 3 : user input 
+INFO: mask for userWord: ^--++
+INFO: step 4 : user input 
+INFO: mask for userWord: -^^-+
+INFO: step 5 : user input 
+INFO: mask for userWord: -^-+^
+INFO: step 6 : user input 
+INFO: mask for userWord: --^++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - щипец
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -----
+INFO: step 3 : user input 
+INFO: mask for userWord: --^--
+INFO: step 4 : user input 
+INFO: mask for userWord: ^+-++
+INFO: step 5 : user input 
+INFO: mask for userWord: -++++
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - автол
+INFO: step 1 : user input 
+INFO: mask for userWord: --^^^
+INFO: step 2 : user input 
+INFO: mask for userWord: +^^--
+INFO: step 3 : user input 
+INFO: mask for userWord: -^^^+
+INFO: step 4 : user input 
+INFO: mask for userWord: ^^-^+
+INFO: step 5 : user input 
+INFO: mask for userWord: ^^^^-
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - вылов
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: ^^^^-
+INFO: step 3 : user input 
+INFO: mask for userWord: ^-+^+
+INFO: step 4 : user input 
+INFO: mask for userWord: ++-+^
+INFO: step 5 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - запев
+INFO: step 1 : user input 
+INFO: mask for userWord: ----^
+INFO: step 2 : user input 
+INFO: mask for userWord: ---^-
+INFO: step 3 : user input булка
+INFO: mask for userWord: ----^
+INFO: step 4 : user input dlld
+EXCEPTION: WordleGame - В слове не корректные символы
+INFO: step 4 : user input синие
+INFO: mask for userWord: ----^
+INFO: step 5 : user input 
+INFO: mask for userWord: ^+-+-
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - божба
+INFO: step 1 : user input 
+INFO: mask for userWord: --^-+
+INFO: step 2 : user input 
+INFO: mask for userWord: ^-^-+
+INFO: step 3 : user input 
+INFO: mask for userWord: -^--^
+INFO: step 4 : user input 
+INFO: mask for userWord: -+-^-
+INFO: step 5 : user input 
+INFO: mask for userWord: --^-+
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - рожон
+INFO: step 1 : user input 
+INFO: mask for userWord: ^----
+INFO: step 2 : user input 
+INFO: mask for userWord: ----+
+INFO: step 3 : user input 
+INFO: mask for userWord: ^--++
+INFO: step 4 : user input 
+INFO: mask for userWord: ^+^+-
+INFO: step 5 : user input 
+INFO: mask for userWord: --^^^
+INFO: step 6 : user input 
+INFO: mask for userWord: +--^^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - мотор
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: ^-^--
+INFO: step 3 : user input 
+INFO: mask for userWord: --++-
+INFO: step 4 : user input 
+INFO: mask for userWord: ^^-+-
+INFO: step 5 : user input 
+INFO: mask for userWord: -^^^^
+INFO: step 6 : user input 
+INFO: mask for userWord: ^-^++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - тираж
+INFO: step 1 : user input 
+INFO: mask for userWord: -+--^
+INFO: step 2 : user input 
+INFO: mask for userWord: -+^-^
+INFO: step 3 : user input 
+INFO: mask for userWord: ^-^+^
+INFO: step 4 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - койот
+INFO: step 1 : user input 
+INFO: mask for userWord: -+-+^
+INFO: step 2 : user input 
+INFO: mask for userWord: ^^^+^
+INFO: step 3 : user input 
+INFO: mask for userWord: +--++
+INFO: step 4 : user input 
+INFO: mask for userWord: ++^--
+INFO: step 5 : user input 
+INFO: mask for userWord: -+^^-
+INFO: step 6 : user input 
+INFO: mask for userWord: -+^+^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - заеда
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: --+--
+INFO: step 3 : user input 
+INFO: mask for userWord: ^^+-+
+INFO: step 4 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - лобан
+INFO: step 1 : user input 
+INFO: mask for userWord: ^----
+INFO: step 2 : user input 
+INFO: mask for userWord: -+-^-
+INFO: step 3 : user input 
+INFO: mask for userWord: ---^^
+INFO: step 4 : user input 
+INFO: mask for userWord: --^^-
+INFO: step 5 : user input 
+INFO: mask for userWord: ^^-^^
+INFO: step 6 : user input 
+INFO: mask for userWord: ^^^-^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - ирбис
+INFO: step 1 : user input 
+INFO: mask for userWord: --^--
+INFO: step 2 : user input булка
+INFO: mask for userWord: ^----
+INFO: step 3 : user input литва
+INFO: mask for userWord: -^---
+INFO: step 4 : user input 
+INFO: mask for userWord: -^-+^
+INFO: step 5 : user input 
+INFO: mask for userWord: ^+--^
+INFO: step 6 : user input 
+INFO: mask for userWord: +--^^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - ворье
+INFO: step 1 : user input 
+INFO: mask for userWord: -^+--
+INFO: step 2 : user input 
+INFO: mask for userWord: -^-^^
+INFO: step 3 : user input 
+INFO: mask for userWord: ^+^^^
+INFO: step 4 : user input 
+INFO: mask for userWord: -^^^^
+INFO: step 5 : user input 
+INFO: mask for userWord: -^^^^
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - фенил
+INFO: step 1 : user input 
+INFO: mask for userWord: --^--
+INFO: step 2 : user input 
+INFO: mask for userWord: ----+
+INFO: step 3 : user input 
+INFO: mask for userWord: -^^^-
+INFO: step 4 : user input 
+INFO: mask for userWord: -++-+
+INFO: step 5 : user input 
+INFO: mask for userWord: ^--^^
+INFO: step 6 : user input 
+INFO: mask for userWord: ^+-^^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - носик
+INFO: step 1 : user input 
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - кирка
+INFO: step 1 : user input 
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - адряс
+INFO: step 1 : user input 
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - ретро
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: --+^-
+INFO: step 3 : user input 
+INFO: mask for userWord: --+-^
+INFO: step 4 : user input 
+INFO: mask for userWord: --+^^
+INFO: step 5 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - башня
+INFO: step 1 : user input 
+INFO: mask for userWord: -^--^
+INFO: step 2 : user input 
+INFO: mask for userWord: -+--^
+INFO: step 3 : user input 
+INFO: mask for userWord: ^+---
+INFO: step 4 : user input 
+INFO: mask for userWord: ++-^^
+INFO: step 5 : user input 
+INFO: mask for userWord: ++^^^
+INFO: step 6 : user input 
+INFO: mask for userWord: ++-^^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - лизат
+INFO: step 1 : user input 
+INFO: mask for userWord: --^--
+INFO: step 2 : user input 
+INFO: mask for userWord: -+^+-
+INFO: step 3 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - бутен
+INFO: step 1 : user input 
+INFO: mask for userWord: ^----
+INFO: step 2 : user input 
+INFO: mask for userWord: --^^-
+INFO: step 3 : user input 
+INFO: mask for userWord: ^^+--
+INFO: step 4 : user input 
+INFO: mask for userWord: -^+++
+INFO: step 5 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - дукат
+INFO: step 1 : user input 
+INFO: mask for userWord: ----^
+INFO: step 2 : user input 
+INFO: mask for userWord: ^^--^
+INFO: step 3 : user input 
+INFO: mask for userWord: ^^--^
+INFO: step 4 : user input 
+INFO: mask for userWord: ^^^-+
+INFO: step 5 : user input 
+INFO: mask for userWord: -^+++
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - каска
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: ----+
+INFO: step 3 : user input 
+INFO: mask for userWord: ----+
+INFO: step 4 : user input 
+INFO: mask for userWord: ----+
+INFO: step 5 : user input 
+INFO: mask for userWord: ^+-++
+INFO: step 6 : user input 
+INFO: mask for userWord: ^+-++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - закат
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: --^-^
+INFO: step 3 : user input 
+INFO: mask for userWord: ^+-^^
+INFO: step 4 : user input 
+INFO: mask for userWord: -+^--
+INFO: step 5 : user input 
+INFO: mask for userWord: ^+---
+INFO: step 6 : user input 
+INFO: mask for userWord: ^+--^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - буфет
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -----
+INFO: step 3 : user input 
+INFO: mask for userWord: +----
+INFO: step 4 : user input 
+INFO: mask for userWord: +-^--
+INFO: step 5 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - сукре
+INFO: step 1 : user input 
+INFO: mask for userWord: -+--+
+INFO: step 2 : user input 
+INFO: mask for userWord: -+-++
+INFO: step 3 : user input 
+INFO: mask for userWord: -+^++
+INFO: step 4 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - мираж
+INFO: step 1 : user input 
+INFO: mask for userWord: ^---^
+INFO: step 2 : user input 
+INFO: mask for userWord: ^+--^
+INFO: step 3 : user input 
+INFO: mask for userWord: -+-^^
+INFO: step 4 : user input 
+INFO: mask for userWord: -+-^^
+INFO: step 5 : user input 
+INFO: mask for userWord: +++-^
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - кресс
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -^--+
+INFO: step 3 : user input 
+INFO: mask for userWord: -^--+
+INFO: step 4 : user input 
+INFO: mask for userWord: -^^^+
+INFO: step 5 : user input 
+INFO: mask for userWord: ^^--+
+INFO: step 6 : user input 
+INFO: mask for userWord: --+^+
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - венец
+INFO: step 1 : user input 
+INFO: mask for userWord: -+-^-
+INFO: step 2 : user input 
+INFO: mask for userWord: ++--^
+INFO: step 3 : user input 
+INFO: mask for userWord: +++^-
+INFO: step 4 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - фатум
+INFO: step 1 : user input 
+INFO: mask for userWord: --+--
+INFO: step 2 : user input 
+INFO: mask for userWord: ^-+^-
+INFO: step 3 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - назем
+INFO: step 1 : user input 
+INFO: mask for userWord: --^--
+INFO: step 2 : user input 
+INFO: mask for userWord: ---+-
+INFO: step 3 : user input 
+INFO: mask for userWord: ^+-+-
+INFO: step 4 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гаусс
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -----
+INFO: step 3 : user input 
+INFO: mask for userWord: -+--^
+INFO: step 4 : user input 
+INFO: mask for userWord: -+^^-
+INFO: step 5 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - ларец
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: +---^
+INFO: step 3 : user input 
+INFO: mask for userWord: +--^-
+INFO: step 4 : user input 
+INFO: mask for userWord: ++-^-
+INFO: step 5 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - анонс
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: ----^
+INFO: step 3 : user input 
+INFO: mask for userWord: -^-^^
+INFO: step 4 : user input 
+INFO: mask for userWord: -^^-^
+INFO: step 5 : user input 
+INFO: mask for userWord: -^^^^
+INFO: step 6 : user input 
+INFO: mask for userWord: -^^^^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - вихрь
+INFO: step 1 : user input 
+INFO: mask for userWord: -^--^
+INFO: step 2 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - залец
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -----
+INFO: step 3 : user input 
+INFO: mask for userWord: ---^^
+INFO: step 4 : user input 
+INFO: mask for userWord: -^--^
+INFO: step 5 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - ческа
+INFO: step 1 : user input 
+INFO: mask for userWord: ^----
+INFO: step 2 : user input 
+INFO: mask for userWord: ^^-^^
+INFO: step 3 : user input 
+INFO: mask for userWord: ---++
+INFO: step 4 : user input 
+INFO: mask for userWord: +^-++
+INFO: step 5 : user input 
+INFO: mask for userWord: ++-++
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - химия
+INFO: step 1 : user input 
+INFO: mask for userWord: --+--
+INFO: step 2 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - клоун
+INFO: step 1 : user input 
+INFO: mask for userWord: ^----
+INFO: step 2 : user input 
+INFO: mask for userWord: -++^-
+INFO: step 3 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - дрянь
+INFO: step 1 : user input 
+INFO: mask for userWord: ----^
+INFO: step 2 : user input 
+INFO: mask for userWord: ^---^
+INFO: step 3 : user input 
+INFO: mask for userWord: --^-^
+INFO: step 4 : user input 
+INFO: mask for userWord: -++^-
+INFO: step 5 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - берце
+INFO: step 1 : user input 
+INFO: mask for userWord: -^---
+INFO: step 2 : user input 
+INFO: mask for userWord: -^---
+INFO: step 3 : user input 
+INFO: mask for userWord: -++^-
+INFO: step 4 : user input 
+INFO: mask for userWord: -++-+
+INFO: step 5 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - писец
+INFO: step 1 : user input 
+INFO: mask for userWord: ^-^-^
+INFO: step 2 : user input 
+INFO: mask for userWord: ^+--^
+INFO: step 3 : user input 
+INFO: mask for userWord: -+-^^
+INFO: step 4 : user input 
+INFO: mask for userWord: ^+---
+INFO: step 5 : user input 
+INFO: mask for userWord: ^+^--
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - губка
+INFO: step 1 : user input 
+INFO: mask for userWord: ^----
+INFO: step 2 : user input 
+INFO: mask for userWord: ----+
+INFO: step 3 : user input 
+INFO: mask for userWord: ^--^+
+INFO: step 4 : user input 
+INFO: mask for userWord: ^-^-+
+INFO: step 5 : user input 
+INFO: mask for userWord: ^+--+
+INFO: step 6 : user input 
+INFO: mask for userWord: -+-++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - горюн
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -----
+INFO: step 3 : user input 
+INFO: mask for userWord: ^-+^^
+INFO: step 4 : user input 
+INFO: mask for userWord: +++^-
+INFO: step 5 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - выбег
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: --^^-
+INFO: step 3 : user input 
+INFO: mask for userWord: ---^^
+INFO: step 4 : user input 
+INFO: mask for userWord: --++-
+INFO: step 5 : user input 
+INFO: mask for userWord: +-+++
+INFO: step 6 : user input 
+INFO: mask for userWord: +++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - выдел
+INFO: step 1 : user input 
+INFO: mask for userWord: +----
+INFO: step 2 : user input 
+INFO: mask for userWord: +^---
+INFO: step 3 : user input 
+INFO: mask for userWord: +^---
+INFO: step 4 : user input 
+INFO: mask for userWord: ++-+-
+INFO: step 5 : user input 
+INFO: mask for userWord: ++^+-
+INFO: step 6 : user input 
+INFO: mask for userWord: ++-+-
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - сомик
+INFO: step 1 : user input 
+INFO: mask for userWord: -^-^-
+INFO: step 2 : user input 
+INFO: mask for userWord: ^-^--
+INFO: step 3 : user input 
+INFO: mask for userWord: ^--+^
+INFO: step 4 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - асцит
+INFO: step 1 : user input 
+INFO: mask for userWord: -^^^^
+INFO: step 2 : user input 
+INFO: mask for userWord: -^-^^
+INFO: step 3 : user input 
+INFO: mask for userWord: -^-+^
+INFO: step 4 : user input 
+INFO: mask for userWord: ^^-+-
+INFO: step 5 : user input 
+INFO: mask for userWord: ++-+-
+INFO: step 6 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - ризка
+INFO: step 1 : user input 
+INFO: mask for userWord: ----^
+INFO: step 2 : user input 
+INFO: mask for userWord: -^-+^
+INFO: step 3 : user input 
+INFO: mask for userWord: -+^+-
+INFO: step 4 : user input 
+INFO: mask for userWord: -+^+^
+INFO: step 5 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - акула
+INFO: step 1 : user input 
+INFO: mask for userWord: ---+-
+INFO: step 2 : user input 
+INFO: mask for userWord: -^-++
+INFO: step 3 : user input 
+INFO: mask for userWord: ^-^++
+INFO: step 4 : user input 
+INFO: mask for userWord: ^^-++
+INFO: step 5 : user input 
+INFO: mask for userWord: ^^^++
+INFO: step 6 : user input 
+INFO: mask for userWord: ^^^++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - южане
+INFO: step 1 : user input 
+INFO: mask for userWord: ^----
+INFO: step 2 : user input 
+EXCEPTION: [java.base/java.util.ImmutableCollections.uoe(ImmutableCollections.java:142), java.base/java.util.ImmutableCollections$AbstractImmutableCollection.remove(ImmutableCollections.java:150), ru.yandex.practicum.WordleAuto.setUserWordAndMask(WordleAuto.java:57), ru.yandex.practicum.WordleGame.run(WordleGame.java:64), ru.yandex.practicum.Wordle.main(Wordle.java:28)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - маета
+INFO: step 1 : user input 
+INFO: mask for userWord: ----^
+INFO: step 2 : user input 
+EXCEPTION: [java.base/java.util.ImmutableCollections.uoe(ImmutableCollections.java:142), java.base/java.util.ImmutableCollections$AbstractImmutableCollection.remove(ImmutableCollections.java:150), ru.yandex.practicum.WordleAuto.setUserWordAndMask(WordleAuto.java:57), ru.yandex.practicum.WordleGame.run(WordleGame.java:64), ru.yandex.practicum.Wordle.main(Wordle.java:28)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - иприт
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -----
+INFO: step 3 : user input 
+INFO: mask for userWord: -^^-^
+INFO: step 4 : user input 
+INFO: mask for userWord: ^^^--
+INFO: step 5 : user input 
+INFO: mask for userWord: ^^^-+
+INFO: step 6 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - сарыч
+INFO: step 1 : user input 
+INFO: mask for userWord: --+--
+INFO: step 2 : user input 
+INFO: mask for userWord: --+^-
+INFO: step 3 : user input 
+INFO: mask for userWord: -++--
+INFO: step 4 : user input 
+INFO: mask for userWord: -++-^
+INFO: step 5 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - десть
+INFO: step 1 : user input 
+INFO: mask for userWord: ---^^
+INFO: step 2 : user input 
+INFO: mask for userWord: -+-^^
+INFO: step 3 : user input 
+INFO: mask for userWord: -+^--
+INFO: step 4 : user input 
+INFO: mask for userWord: -+^^-
+INFO: step 5 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - жулье
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -^--^
+INFO: step 3 : user input 
+INFO: mask for userWord: ---^^
+INFO: step 4 : user input 
+INFO: mask for userWord: +^+-^
+INFO: step 5 : user input 
+INFO: mask for userWord: +^+-^
+INFO: step 6 : user input 
+INFO: mask for userWord: +-+++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - набат
+INFO: step 1 : user input 
+INFO: mask for userWord: ----^
+INFO: step 2 : user input 
+INFO: mask for userWord: ----^
+INFO: step 3 : user input 
+INFO: mask for userWord: ---^^
+INFO: step 4 : user input 
+INFO: mask for userWord: ^--++
+INFO: step 5 : user input 
+INFO: mask for userWord: -++++
+INFO: step 6 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - линия
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: --^^-
+INFO: step 3 : user input 
+INFO: mask for userWord: -+^-+
+INFO: step 4 : user input 
+INFO: mask for userWord: -+^-+
+INFO: step 5 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - зятек
+INFO: step 1 : user input 
+INFO: mask for userWord: ----^
+INFO: step 2 : user input 
+INFO: mask for userWord: ---^+
+INFO: step 3 : user input 
+INFO: mask for userWord: ---^+
+INFO: step 4 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - туман
+INFO: step 1 : user input 
+INFO: mask for userWord: --^--
+INFO: step 2 : user input 
+INFO: mask for userWord: -^-++
+INFO: step 3 : user input 
+INFO: mask for userWord: -+-++
+INFO: step 4 : user input 
+INFO: mask for userWord: -+-++
+INFO: step 5 : user input 
+INFO: mask for userWord: -+-++
+INFO: step 6 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================

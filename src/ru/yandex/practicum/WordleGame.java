@@ -26,21 +26,17 @@ public class WordleGame {
     private final GameState gameState;
     private final WordleAuto auto;
 
-    public WordleGame(WordleDictionary dictionary, InputStream input, OutputStream output, Logger logger) throws IOException {
+    public WordleGame(WordleDictionary dictionary, InputStream input, OutputStream output, Logger logger) {
         this.scanner = new Scanner(input);
         this.output = output;
         this.dictionary = dictionary;
         this.logger = logger;
         this.gameState = new GameState();
-        auto = new WordleAuto(this.dictionary);
+        auto = new WordleAuto(dictionary.getDictionaryList());
         logger.info("WordleGame - game created");
     }
 
     public void run() throws IOException {
-        // создаем wordleAUTO с параметром dictionary
-        // на каждом шаге передаем пользовательское слово и маске
-        // wordleAUTO на каждом шаге отфильтровывает не подходящие слова
-        // в случае ввода "\n"  - выдает случайное слово из оставшихся
         logger.info("=".repeat(20));
         logger.info("WordleGame - START GAME");
         String answer = dictionary.generateWorld();
@@ -60,18 +56,19 @@ public class WordleGame {
                         throw new WordNotFoundInDictionary("Слова нет в словаре");
                     }
                 }
-                String mask = WordleUtil.getMask(answer, userWord);
-                auto.setUserWordAndMask(userWord, mask);
-                logger.info("mask for userWord: " + mask);
-                if (mask.equals("+++++")) {
+                if (answer.equals(userWord)) {
                     output.write("YOU WIN \n".getBytes());
                     gameState.setWin();
-                } else {
+                } else {String mask = WordleUtil.getMask(answer, userWord);
+                    gameState.addWordAndMask(userWord, mask);
+                    auto.setUserWordAndMask(userWord, mask);
+                    logger.info("mask for userWord: " + mask);
                     output.write((mask + "\n").getBytes());
                     gameState.decrementStep();
                 }
-            } catch (Exception e) {
-                logger.excepion("WordleGame - " + e.getMessage());
+
+            } catch (WordNotFoundInDictionary | WordHaveIncorrectCharacters | WordIncorrectLength e) {
+                logger.info("WordleGame - " + e.getMessage());
                 output.write((e.getMessage() + "\n").getBytes());
             }
         }

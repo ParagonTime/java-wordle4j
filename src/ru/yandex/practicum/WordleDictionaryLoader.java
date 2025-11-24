@@ -21,21 +21,21 @@ public class WordleDictionaryLoader {
     public WordleDictionary getDictionary() {
         logger.info("dictionary loading start");
         List<String> words = new ArrayList<>();
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(worldsFileName)))) {
+        try (BufferedReader reader =
+                     new BufferedReader(
+                             new InputStreamReader(
+                                     new FileInputStream(worldsFileName)))) {
             while (reader.ready()) {
                 String word = reader.readLine();
                 if (word.length() == 5) {
                     words.add(WordleUtil.normalizeWord(word));
                 }
             }
-        } catch (FileNotFoundException e) {
-            logger.excepion("WordleDictionaryLoader - " + e.getMessage());
-            throw new RuntimeException(e); // улучшить обработку исключений
         } catch (IOException e) {
             logger.excepion("WordleDictionaryLoader - " + e.getMessage());
             throw new RuntimeException(e);
         }
-        // использовать утилитный класс для обработки слов
+
         logger.info("dictionary loading completed");
         logger.info("dictionary has " + words.size() + " words");
         return WordleUtil.getDictionary(words);

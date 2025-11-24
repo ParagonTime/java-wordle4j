@@ -22,8 +22,12 @@ public class WordleDictionary {
     }
 
     public String generateWorld() {
-        int numOfWorld = (int) (Math.random() * 10000) % words.size();
-        return words.get(numOfWorld);
+        if (!words.isEmpty()) {
+            int numOfWorld = (int) (Math.random() * 10000) % words.size();
+            return words.get(numOfWorld);
+        } else {
+            return "гонец";
+        }
     }
 
     public boolean contains(String word) {

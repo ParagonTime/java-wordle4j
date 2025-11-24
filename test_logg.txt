@@ -1,0 +1,502 @@
+EXCEPTION: exception
+INFO: info
+INFO: info
+EXCEPTION: exception
+EXCEPTION: exception
+INFO: info
+INFO: info
+EXCEPTION: exception
+EXCEPTION: exception
+INFO: info
+INFO: info
+EXCEPTION: exception
+INFO: dictionary loading start
+EXCEPTION: WordleDictionaryLoader - file.txt (Не удается найти указанный файл)
+INFO: dictionary loading start
+INFO: dictionary loading completed
+EXCEPTION: exception
+INFO: info
+INFO: info
+EXCEPTION: exception
+INFO: dictionary loading start
+EXCEPTION: WordleDictionaryLoader - file.txt (Не удается найти указанный файл)
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary loading start
+EXCEPTION: WordleDictionaryLoader - file.txt (Не удается найти указанный файл)
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - apple
+INFO: step 1 : user input appl1
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - apple
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - apple
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - apple
+INFO: step 1 : user input xyzab
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - apple
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - apple
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - apple
+INFO: step 1 : user input appl1
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - abcde
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - abcde
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: +---+
+INFO: step 3 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - apple
+INFO: step 1 : user input xyzab
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - wrong
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - wrong
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - мечта
+INFO: step 1 : user input герой
+INFO: mask for userWord: -+---
+INFO: step 2 : user input гыыss
+INFO: WordleGame - В слове не корректные символы
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - герой
+INFO: step 1 : user input слово
+INFO: WordleGame - Слова нет в словаре
+INFO: step 1 : user input слово
+INFO: WordleGame - Слова нет в словаре
+INFO: step 1 : user input слово
+INFO: WordleGame - Слова нет в словаре
+INFO: step 1 : user input слово
+INFO: WordleGame - Слова нет в словаре
+INFO: step 1 : user input слово
+INFO: WordleGame - Слова нет в словаре
+INFO: step 1 : user input слово
+INFO: WordleGame - Слова нет в словаре
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input 
+INFO: mask for userWord: +^-^-
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input слово
+INFO: WordleGame - Слова нет в словаре
+INFO: step 1 : user input гонец
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - герой
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input 
+INFO: mask for userWord: -+---
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input 
+INFO: mask for userWord: +^-^-
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input слово
+INFO: WordleGame - Слова нет в словаре
+INFO: step 1 : user input 
+INFO: mask for userWord: +^-^-
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 2 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 3 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 4 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 5 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 6 : user input слово
+INFO: mask for userWord: --^-^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 2 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 3 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 4 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 5 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 6 : user input слово
+INFO: mask for userWord: --^-^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - мечта
+INFO: step 1 : user input герой
+INFO: mask for userWord: -+---
+INFO: step 2 : user input гыыss
+INFO: WordleGame - В слове не корректные символы
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - герой
+INFO: step 1 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 2 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 3 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 4 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 5 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 6 : user input слово
+INFO: mask for userWord: --^-^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - герой
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input 
+INFO: mask for userWord: --^-^
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - герой
+INFO: step 1 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 2 : user input гонец
+INFO: mask for userWord: +^-^-
+INFO: step 3 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 2 : user input 
+INFO: mask for userWord: +^-^-
+INFO: step 3 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input герой
+INFO: mask for userWord: +^-^-
+INFO: step 2 : user input гыыss
+INFO: WordleGame - В слове не корректные символы
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - герой
+INFO: step 1 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 2 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 3 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 4 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 5 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 6 : user input слово
+INFO: mask for userWord: --^-^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - герой
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input 
+INFO: mask for userWord: --^-^
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input типаж
+INFO: WordleGame - Слова нет в словаре
+INFO: step 1 : user input гонец
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+EXCEPTION: exception
+INFO: info
+INFO: info
+EXCEPTION: exception
+INFO: dictionary loading start
+EXCEPTION: WordleDictionaryLoader - file.txt (Не удается найти указанный файл)
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - мечта
+INFO: step 1 : user input герой
+INFO: mask for userWord: -+---
+INFO: step 2 : user input гыыss
+INFO: WordleGame - В слове не корректные символы
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 2 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 3 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 4 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 5 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 6 : user input слово
+INFO: mask for userWord: --^-^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - мечта
+INFO: step 1 : user input wrong
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input apple
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - мечта
+INFO: step 1 : user input типаж
+INFO: WordleGame - Слова нет в словаре
+INFO: step 1 : user input гонец
+INFO: mask for userWord: ---^-
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гонец
+INFO: step 1 : user input слово
+INFO: mask for userWord: --^-^
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================

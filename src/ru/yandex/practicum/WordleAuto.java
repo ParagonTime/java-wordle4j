@@ -10,8 +10,8 @@ public class WordleAuto {
     private final Set<Character> unsuitable;
     private final char[] unionMask;
 
-    public WordleAuto(WordleDictionary dictionary) {
-        this.words = dictionary.getDictionaryList();
+    public WordleAuto(List<String> words) {
+        this.words = words;
         suitable = new HashSet<>();
         unsuitable = new HashSet<>();
         unionMask = new char[]{'0', '0', '0', '0', '0'};
@@ -57,6 +57,7 @@ public class WordleAuto {
         words = words.stream()
                 .filter(this::checkCharactersAtUnsuitable)
                 .filter(this::checkCharactersAtSuitable)
+                .filter(word -> !word.equals(userWord))
                 .toList();
     }
 
