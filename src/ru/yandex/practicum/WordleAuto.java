@@ -3,6 +3,7 @@ package ru.yandex.practicum;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class WordleAuto {
     private List<String> words;
@@ -63,7 +64,7 @@ public class WordleAuto {
                 .filter(this::checkCharactersAtUnsuitable)
                 .filter(this::checkCharactersAtSuitable)
                 .filter(word -> !word.equals(userWord))
-                .toList();
+                .collect(Collectors.toList());
     }
 
     private boolean checkCharactersAtUnsuitable(String word) {

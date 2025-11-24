@@ -44,7 +44,12 @@ public class WordleGame {
         output.write("Угадайте слово из 5-ти букв:\n".getBytes());
         while (!gameState.isWinGame() && gameState.actualStep() != 0) {
             try {
-                String userWord = scanner.nextLine();
+                String userWord = "";
+                if (scanner.hasNextLine()) {
+                    userWord = scanner.nextLine();
+                } else {
+                    throw new RuntimeException("Empty input"); // или обработать по-другому
+                }
                 logger.info("step " + (7 - gameState.actualStep()) + " : user input " + userWord);
                 userWord = WordleUtil.normalizeWord(userWord);
                 if (userWord.isEmpty()) {

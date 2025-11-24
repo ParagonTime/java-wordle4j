@@ -1937,3 +1937,93 @@ INFO: step 6 : user input
 INFO: user status win game: true
 INFO: WordleGame - END GAME
 INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - чирьи
+INFO: step 1 : user input 
+INFO: mask for userWord: +++--
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - аминь
+INFO: step 1 : user input 
+INFO: mask for userWord: ---^^
+INFO: step 2 : user input 
+INFO: mask for userWord: ---+^
+INFO: step 3 : user input 
+INFO: mask for userWord: ^-++^
+INFO: step 4 : user input 
+INFO: mask for userWord: --++^
+INFO: step 5 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - метро
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: ^^-^-
+INFO: step 3 : user input 
+INFO: mask for userWord: ^^-^^
+INFO: step 4 : user input 
+INFO: mask for userWord: -+-^^
+INFO: step 5 : user input 
+INFO: mask for userWord: +++^-
+INFO: step 6 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - глушь
+INFO: step 1 : user input 
+INFO: mask for userWord: -----
+INFO: step 2 : user input 
+INFO: mask for userWord: -+-^-
+INFO: step 3 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - дикий
+INFO: step 1 : user input 
+INFO: mask for userWord: -+---
+INFO: step 2 : user input 
+INFO: mask for userWord: -+---
+INFO: step 3 : user input 
+INFO: mask for userWord: -+--^
+INFO: step 4 : user input 
+INFO: mask for userWord: -+--^
+INFO: step 5 : user input 
+INFO: mask for userWord: ^+---
+INFO: step 6 : user input 
+INFO: mask for userWord: ^+--^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
