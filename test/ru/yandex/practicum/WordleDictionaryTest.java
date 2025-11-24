@@ -14,7 +14,7 @@ class WordleDictionaryTest {
 
     @BeforeEach
     void setUp() {
-         dictionary = new WordleDictionary(words);
+        dictionary = new WordleDictionary(words);
     }
 
     @Test

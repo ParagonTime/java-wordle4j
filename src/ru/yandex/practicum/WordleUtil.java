@@ -31,7 +31,7 @@ public class WordleUtil {
             char charr = userWord.charAt(i);
             if (charr == answer.charAt(i)) {
                 builder.append("+");
-            } else if (charSet.contains(charr)){
+            } else if (charSet.contains(charr)) {
                 builder.append("^");
             } else {
                 builder.append("-");

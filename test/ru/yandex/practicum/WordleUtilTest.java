@@ -19,7 +19,7 @@ class WordleUtilTest {
     @Test
     public void testNormalizeList() {
         List<String> list = List.of("first", "second", "Hello");
-        List<String> actual =  WordleUtil.normalizeListWords(list);
+        List<String> actual = WordleUtil.normalizeListWords(list);
         assertEquals(2, actual.size());
         assertEquals("first", actual.get(0));
         assertEquals("hello", actual.get(1));

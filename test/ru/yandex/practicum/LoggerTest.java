@@ -35,7 +35,7 @@ class LoggerTest {
         String infoStr = "info";
         Logger logger = new Logger(file);
         logger.info(infoStr);
-        String actual =  Files.readAllLines(path).getLast();
+        String actual = Files.readAllLines(path).getLast();
         assertEquals("INFO: " + infoStr, actual);
     }
 
@@ -44,8 +44,8 @@ class LoggerTest {
         String infoStr = "exception";
         Logger logger = new Logger(file);
         logger.excepion(infoStr);
-        String actual =  Files.readAllLines(path).getLast();
-        assertEquals("EXCEPTION: "+ infoStr, actual);
+        String actual = Files.readAllLines(path).getLast();
+        assertEquals("EXCEPTION: " + infoStr, actual);
     }
 
     @Test

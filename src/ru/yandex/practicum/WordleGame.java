@@ -59,7 +59,8 @@ public class WordleGame {
                 if (answer.equals(userWord)) {
                     output.write("YOU WIN \n".getBytes());
                     gameState.setWin();
-                } else {String mask = WordleUtil.getMask(answer, userWord);
+                } else {
+                    String mask = WordleUtil.getMask(answer, userWord);
                     gameState.addWordAndMask(userWord, mask);
                     auto.setUserWordAndMask(userWord, mask);
                     logger.info("mask for userWord: " + mask);

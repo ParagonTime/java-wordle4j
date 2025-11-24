@@ -41,7 +41,7 @@ class WordleGameTest {
         game.run();
 
         String output = outputStream.toString();
-        assertTrue(output.contains("YOU WIN") );
+        assertTrue(output.contains("YOU WIN"));
     }
 
     @Test
