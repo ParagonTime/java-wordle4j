@@ -57,6 +57,11 @@ public class WordleGame {
         if (mask.equals("+++++")) {
             setWin();
         }
+        logger.info("user input: " + answer);
+        logger.info("mask input: " + mask);
+        if (step > 0) {
+            step--;
+        }
         return mask;
     }
 
