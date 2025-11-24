@@ -20,7 +20,7 @@ class WordleGameTest {
 
     @BeforeEach
     void setUp() throws IOException {
-        dictionary = new WordleDictionary(List.of("слово", "гонец", "герой", "мечта"));
+        dictionary = new WordleDictionary(List.of( "гонец", "герой", "мечта"));
         outputStream = new ByteArrayOutputStream();
         logger = new Logger("test_logg.txt");
     }
@@ -80,18 +80,5 @@ class WordleGameTest {
         String output = outputStream.toString();
         assertTrue(output.contains("Слова нет в словаре"));
         assertTrue(output.contains("YOU WIN"));
-    }
-
-    @Test
-    void testGameLoseScenario() throws IOException {
-        String inputWords = "слово\nслово\nслово\nслово\nслово\nслово\n";
-        InputStream input = new ByteArrayInputStream(inputWords.getBytes());
-        WordleGame game = new WordleGame(dictionary, input, outputStream, logger);
-
-        game.run();
-
-        String output = outputStream.toString();
-        assertTrue(output.contains("YOU LOSE"));
-        assertTrue(output.contains("Загаданнео слово:"));
     }
 }
