@@ -20,12 +20,14 @@ public class WordleAuto {
     public String getAnswerWord() {
         boolean isSuitable = false;
         String autoAnswer = "гонец";
+        int count = 100;
         if (words.isEmpty()) {
             return autoAnswer;
         }
-        while (!isSuitable) {
+        while (!isSuitable && count > 0) {
             autoAnswer = words.get((int) (Math.random() * 112342) % words.size());
             isSuitable = checkSuitable(autoAnswer);
+            count--;
         }
         return autoAnswer;
     }
