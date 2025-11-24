@@ -44,7 +44,7 @@ public class WordleGame {
         output.write("Угадайте слово из 5-ти букв:\n".getBytes());
         while (!gameState.isWinGame() && gameState.actualStep() != 0) {
             try {
-                String userWord = "";
+                String userWord;
                 if (scanner.hasNextLine()) {
                     userWord = scanner.nextLine();
                 } else {
