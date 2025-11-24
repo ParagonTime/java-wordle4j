@@ -58,7 +58,7 @@ class WordleGameTest {
 
     @Test
     void testGameWithInvalidWord() throws IOException {
-        String inputWords = "герой\nгыыss\n\n\n\n\n";
+        String inputWords = "ге0ой\nгыыss\n\n\n\n\n";
         InputStream input = new ByteArrayInputStream(inputWords.getBytes());
         WordleGame game = new WordleGame(dictionary, input, outputStream, logger);
 
@@ -71,7 +71,6 @@ class WordleGameTest {
 
     @Test
     void testGameWithWordNotInDictionary() throws IOException {
-        // Тест игры со словом не из словаря
         String inputWords = "типаж\nгонец\n\n\n\n\n";
         InputStream input = new ByteArrayInputStream(inputWords.getBytes());
         WordleGame game = new WordleGame(dictionary, input, outputStream, logger);

@@ -500,3 +500,17 @@ INFO: step 2 : user input
 INFO: user status win game: true
 INFO: WordleGame - END GAME
 INFO: ====================
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - мечта
+INFO: step 1 : user input ге0ой
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input гыыss
+INFO: WordleGame - В слове не корректные символы
+INFO: step 1 : user input 
+INFO: mask for userWord: ---^-
+INFO: step 2 : user input 
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
