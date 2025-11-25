@@ -1,5 +1,8 @@
 package ru.yandex.practicum;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /*
 в этом классе хранится словарь и состояние игры
     текущий шаг
@@ -13,11 +16,60 @@ package ru.yandex.practicum;
 не забудьте про специальные типы исключений для игровых и неигровых ошибок
  */
 public class WordleGame {
+    private static final int START_GAME_STEPS = 6;
+    private final Logger logger;
+    private final WordleDictionary dictionary;
+    private final WordleAuto auto;
+    private int step;
+    private boolean winGame;
+    private final List<String> answers;
+    private final List<String> masks;
 
-    private String answer;
+    public WordleGame(WordleDictionary dictionary, Logger logger) {
+        this.dictionary = dictionary;
+        this.logger = logger;
+        answers = new ArrayList<>();
+        masks = new ArrayList<>();
+        step = START_GAME_STEPS;
+        winGame = false;
+        auto = new WordleAuto(dictionary.getDictionaryList());
+        this.logger.info("WordleGame - game created");
+    }
 
-    private int steps;
+    public boolean status() {
+        return !winGame && step > 0;
+    }
 
-    private WordleDictionary dictionary;
+    public String generateAnswer() {
+        return auto.getAnswerWord();
+    }
 
+    public String getMask(String secret, String answer) throws WordNotFoundInDictionary,
+            WordHaveIncorrectCharacters, WordIncorrectLength {
+        WordleUtil.checkCorrection(answer);
+        if (!dictionary.contains(answer)) {
+            throw new WordNotFoundInDictionary("Слова нет в словаре");
+        }
+        String mask = WordleUtil.getMask(secret, answer);
+        auto.setUserWordAndMask(answer, mask);
+        answers.add(answer);
+        masks.add(mask);
+        if (mask.equals("+++++")) {
+            setWin();
+        }
+        logger.info("user input: " + answer);
+        logger.info("mask input: " + mask);
+        if (step > 0) {
+            step--;
+        }
+        return mask;
+    }
+
+    public boolean isWin() {
+        return winGame;
+    }
+
+    public void setWin() {
+        winGame = true;
+    }
 }
