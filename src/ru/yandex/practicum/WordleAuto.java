@@ -2,10 +2,12 @@ package ru.yandex.practicum;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Random;
 import java.util.Set;
 import java.util.stream.Collectors;
 
 public class WordleAuto {
+    private final Random randomizer;
     private List<String> words;
     private final Set<Character> suitable;
     private final Set<Character> unsuitable;
@@ -13,6 +15,7 @@ public class WordleAuto {
 
     public WordleAuto(List<String> words) {
         this.words = words;
+        randomizer = new Random();
         suitable = new HashSet<>();
         unsuitable = new HashSet<>();
         unionMask = new char[]{'0', '0', '0', '0', '0'};
@@ -26,7 +29,7 @@ public class WordleAuto {
             return autoAnswer;
         }
         while (!isSuitable && count > 0) {
-            autoAnswer = words.get((int) (Math.random() * 112342) % words.size());
+            autoAnswer = words.get(randomizer.nextInt(0, 112342) % words.size());
             isSuitable = checkSuitable(autoAnswer);
             count--;
         }
@@ -49,7 +52,9 @@ public class WordleAuto {
             char comm = masks.charAt(i);
             switch (comm) {
                 case '-':
-                    unsuitable.add(userWord.charAt(i));
+                    if (!suitable.contains(userWord.charAt(i))) {
+                        unsuitable.add(userWord.charAt(i));
+                    }
                     break;
                 case '+':
                     suitable.add(userWord.charAt(i));
@@ -61,15 +66,15 @@ public class WordleAuto {
             }
         }
         words = words.stream()
-                .filter(this::checkCharactersAtUnsuitable)
                 .filter(this::checkCharactersAtSuitable)
+                .filter(this::checkCharactersAtUnsuitable)
                 .filter(word -> !word.equals(userWord))
                 .collect(Collectors.toList());
     }
 
     private boolean checkCharactersAtUnsuitable(String word) {
         for (int i = 0; i < word.length(); i++) {
-            if (unsuitable.contains(word.charAt(i))) {
+            if (unsuitable.contains(word.charAt(i))) { // && !suitable.contains(word.charAt(i))
                 return false;
             }
         }

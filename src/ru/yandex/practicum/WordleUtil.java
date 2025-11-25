@@ -1,8 +1,8 @@
 package ru.yandex.practicum;
 
-import java.util.HashSet;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Set;
+import java.util.Map;
 
 public class WordleUtil {
 
@@ -23,25 +23,35 @@ public class WordleUtil {
 
     public static String getMask(String secret, String answer) {
         StringBuilder builder = new StringBuilder();
-        Set<Character> charSet = new HashSet<>();
+        Map<Character, Integer> charMap = new HashMap<>();
         for (char charr : secret.toCharArray()) {
-            charSet.add(charr);
+            charMap.put(charr, charMap.getOrDefault(charr, 0) + 1);
         }
         for (int i = 0; i < answer.length(); i++) {
             char charr = answer.charAt(i);
             if (charr == secret.charAt(i)) {
                 builder.append("+");
-            } else if (charSet.contains(charr)) {
-                builder.append("^");
+                charMap.put(charr, charMap.get(charr) - 1);
             } else {
                 builder.append("-");
+            }
+        }
+
+        for (int i = 0; i < answer.length(); i++) {
+            char charr = answer.charAt(i);
+            char charrMask = builder.charAt(i);
+            if (charrMask == '-') {
+                if (charMap.containsKey(charr) && charMap.get(charr) > 0) {
+                    builder.setCharAt(i, '^');
+                    charMap.put(charr, charMap.get(charr) - 1);
+                }
             }
         }
         return builder.toString();
     }
 
     public static void checkCorrection(String word) throws WordHaveIncorrectCharacters, WordIncorrectLength {
-        if (!word.matches("^[а-я]+$")) {
+        if (word == null || word.isEmpty() || !word.matches("^[а-я]+$")) {
             throw new WordHaveIncorrectCharacters("В слове не корректные символы");
         }
         if (word.length() != 5) {

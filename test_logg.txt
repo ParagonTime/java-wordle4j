@@ -809,3 +809,66 @@ INFO: WordleGame - game created
 INFO: WordleGame - game created
 INFO: WordleGame - game created
 INFO: WordleGame - game created
+EXCEPTION: exception
+INFO: info
+INFO: info
+EXCEPTION: exception
+INFO: dictionary loading start
+EXCEPTION: WordleDictionaryLoader - file.txt (Не удается найти указанный файл)
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: user input: герой
+INFO: mask input: +^-^-
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: user input: гонец
+INFO: mask input: +++++
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+EXCEPTION: exception
+INFO: info
+INFO: info
+EXCEPTION: exception
+INFO: dictionary loading start
+EXCEPTION: WordleDictionaryLoader - file.txt (Не удается найти указанный файл)
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: user input: герой
+INFO: mask input: +^-^-
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: user input: гонец
+INFO: mask input: +++++
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+EXCEPTION: exception
+INFO: info
+INFO: info
+EXCEPTION: exception
+INFO: dictionary loading start
+EXCEPTION: WordleDictionaryLoader - file.txt (Не удается найти указанный файл)
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: user input: герой
+INFO: mask input: +^-^-
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: user input: гонец
+INFO: mask input: +++++
+INFO: WordleGame - game created
+INFO: WordleGame - game created
+INFO: WordleGame - game created

@@ -1,9 +1,6 @@
 package ru.yandex.practicum;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /*
 этот класс содержит в себе список слов List<String>
@@ -11,20 +8,19 @@ import java.util.Set;
     также этот класс может содержать рутинные функции по сравнению слов, букв и т.д.
  */
 public class WordleDictionary {
-
+    private final Random randomizer;
     private final List<String> words;
     private final Set<String> setWords;
 
     public WordleDictionary(List<String> words) {
         this.words = new ArrayList<>(words);
         this.setWords = new HashSet<>(words);
-
+        randomizer = new Random();
     }
 
     public String generateWorld() {
         if (!words.isEmpty()) {
-            int numOfWorld = (int) (Math.random() * 10000) % words.size();
-            return words.get(numOfWorld);
+            return words.get(randomizer.nextInt(0, 123456) % words.size());
         } else {
             return "гонец";
         }

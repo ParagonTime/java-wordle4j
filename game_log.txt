@@ -2250,3 +2250,1090 @@ INFO: ====================
 INFO: WordleGame - START GAME
 INFO: dictionary generated secret word - тавот
 EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithImmediateWin(WordleTest.java:37), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - вахта
+INFO: user input: гавот
+INFO: mask input: -+^-^
+INFO: user input: валет
+INFO: mask input: ++--^
+INFO: user input: ватин
+INFO: mask input: ++^--
+INFO: user input: вакат
+INFO: mask input: ++-^^
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - облик
+INFO: user input: ангоб
+INFO: mask input: ---^^
+INFO: user input: обмыв
+INFO: mask input: ++---
+INFO: user input: обряд
+INFO: mask input: ++---
+INFO: user input: обкос
+INFO: mask input: ++^^-
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - рысак
+INFO: user input: оргия
+INFO: mask input: -^---
+INFO: user input: будра
+INFO: mask input: ---^^
+INFO: user input: параф
+INFO: mask input: -^^+-
+INFO: user input: савар
+INFO: mask input: ^^-+^
+INFO: user input: салар
+INFO: mask input: ^^-+^
+INFO: user input: страж
+INFO: mask input: ^-^+-
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - рысак
+INFO: user input: оргия
+INFO: mask input: -^---
+INFO: user input: будра
+INFO: mask input: ---^^
+INFO: user input: параф
+INFO: mask input: -^^+-
+INFO: user input: савар
+INFO: mask input: ^^-+^
+INFO: user input: салар
+INFO: mask input: ^^-+^
+INFO: user input: страж
+INFO: mask input: ^-^+-
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - рысак
+INFO: user input: оргия
+INFO: mask input: -^---
+INFO: user input: будра
+INFO: mask input: ---^^
+INFO: user input: параф
+INFO: mask input: -^^+-
+INFO: user input: савар
+INFO: mask input: ^^-+^
+INFO: user input: салар
+INFO: mask input: ^^-+^
+INFO: user input: страж
+INFO: mask input: ^-^+-
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - хохол
+INFO: user input: рядок
+INFO: mask input: ---+-
+INFO: user input: вагон
+INFO: mask input: ---+-
+INFO: user input: белое
+INFO: mask input: --^+-
+INFO: user input: посол
+INFO: mask input: -+-++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - джинн
+INFO: user input: дукат
+INFO: mask input: +----
+INFO: user input: дщерь
+INFO: mask input: +----
+INFO: user input: динги
+INFO: mask input: +^^-^
+INFO: user input: динод
+INFO: mask input: +^^-^
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - чудик
+INFO: user input: халал
+INFO: mask input: -----
+INFO: user input: бегун
+INFO: mask input: ---^-
+INFO: user input: сущик
+INFO: mask input: -+-++
+INFO: user input: путик
+INFO: mask input: -+-++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - выбег
+INFO: user input: друид
+INFO: mask input: -----
+INFO: user input: бонза
+INFO: mask input: ^----
+INFO: user input: былье
+INFO: mask input: ^+--^
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - транш
+INFO: user input: фабра
+INFO: mask input: -^-^^
+INFO: user input: шарик
+INFO: mask input: ^^^--
+INFO: user input: шварт
+INFO: mask input: ^-+^^
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - самба
+INFO: user input: бармы
+INFO: mask input: ^+-^-
+INFO: user input: мамба
+INFO: mask input: ^++++
+INFO: user input: гамба
+INFO: mask input: -++++
+INFO: user input: дамба
+INFO: mask input: -++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - паста
+INFO: user input: кетен
+INFO: mask input: --^--
+INFO: user input: ситцы
+INFO: mask input: ^-^--
+INFO: user input: артос
+INFO: mask input: ^-^-^
+INFO: user input: салат
+INFO: mask input: ^+-^^
+INFO: user input: таймс
+INFO: mask input: ^+--^
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - божок
+INFO: user input: астра
+INFO: mask input: -----
+INFO: user input: копие
+INFO: mask input: ^+---
+INFO: user input: комок
+INFO: mask input: ^+-++
+INFO: user input: возок
+INFO: mask input: -+-++
+INFO: user input: годок
+INFO: mask input: -+-++
+INFO: user input: бочок
+INFO: mask input: ++-++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - укрут
+INFO: user input: чалая
+INFO: mask input: -----
+INFO: user input: совок
+INFO: mask input: ----^
+INFO: user input: штрек
+INFO: mask input: -^+-^
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - пацан
+INFO: user input: букет
+INFO: mask input: -----
+INFO: user input: рахис
+INFO: mask input: -+---
+INFO: user input: запал
+INFO: mask input: -+^+-
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - пижма
+INFO: user input: брюки
+INFO: mask input: ----^
+INFO: user input: виола
+INFO: mask input: -+--+
+INFO: user input: нимфа
+INFO: mask input: -+^-+
+INFO: user input: акула
+INFO: mask input: ^---+
+INFO: user input: сигма
+INFO: mask input: -+-++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - голик
+INFO: user input: тупец
+INFO: mask input: -----
+INFO: user input: ангоб
+INFO: mask input: --^^-
+INFO: user input: олово
+INFO: mask input: ^^---
+INFO: user input: гонец
+INFO: mask input: ++---
+INFO: user input: гонец
+INFO: mask input: ++---
+INFO: user input: гонец
+INFO: mask input: ++---
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - алыча
+INFO: user input: дутар
+INFO: mask input: ---^-
+INFO: user input: апекс
+INFO: mask input: +----
+INFO: user input: анаша
+INFO: mask input: +---+
+INFO: user input: акула
+INFO: mask input: +--^+
+INFO: user input: гонец
+INFO: mask input: -----
+INFO: user input: гонец
+INFO: mask input: -----
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - паныч
+INFO: user input: полон
+INFO: mask input: +---^
+INFO: user input: пунцы
+INFO: mask input: +-+-^
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - повет
+INFO: user input: дужка
+INFO: mask input: -----
+INFO: user input: цевье
+INFO: mask input: -^+--
+INFO: user input: гонец
+INFO: mask input: -+-+-
+INFO: user input: гонец
+INFO: mask input: -+-+-
+INFO: user input: гонец
+INFO: mask input: -+-+-
+INFO: user input: гонец
+INFO: mask input: -+-+-
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - нивоз
+INFO: user input: вывих
+INFO: mask input: --+^-
+INFO: user input: гонец
+INFO: mask input: -^^--
+INFO: user input: гонец
+INFO: mask input: -^^--
+INFO: user input: гонец
+INFO: mask input: -^^--
+INFO: user input: олово
+INFO: mask input: ^--^-
+INFO: user input: гонец
+INFO: mask input: -^^--
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - гольф
+INFO: user input: мямля
+INFO: mask input: ---^-
+INFO: user input: обвал
+INFO: mask input: ^---^
+INFO: user input: леток
+INFO: mask input: ^--^-
+INFO: user input: голый
+INFO: mask input: +++--
+INFO: user input: гольд
+INFO: mask input: ++++-
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - ройка
+INFO: user input: крага
+INFO: mask input: ^^--+
+INFO: user input: искра
+INFO: mask input: --^^+
+INFO: user input: ракша
+INFO: mask input: +-^-+
+INFO: user input: ручка
+INFO: mask input: +--++
+INFO: user input: рыбка
+INFO: mask input: +--++
+INFO: user input: рейка
+INFO: mask input: +-+++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - удэхе
+INFO: user input: румын
+INFO: mask input: -^---
+INFO: user input: гаучо
+INFO: mask input: --^--
+INFO: user input: дубье
+INFO: mask input: ^^--+
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - тромп
+INFO: user input: аплит
+INFO: mask input: -^--^
+INFO: user input: ропот
+INFO: mask input: ^^^-^
+INFO: user input: отпор
+INFO: mask input: ^^^-^
+INFO: user input: шпрот
+INFO: mask input: -^^^^
+INFO: user input: строп
+INFO: mask input: -^^^+
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - кухня
+INFO: user input: бухло
+INFO: mask input: -++--
+INFO: user input: кухва
+INFO: mask input: +++--
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - пучка
+INFO: user input: митра
+INFO: mask input: ----+
+INFO: user input: война
+INFO: mask input: ----+
+INFO: user input: ябеда
+INFO: mask input: ----+
+INFO: user input: цапфа
+INFO: mask input: --^-+
+INFO: user input: шапка
+INFO: mask input: --^++
+INFO: user input: лупка
+INFO: mask input: -+^++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - таган
+INFO: user input: шпуля
+INFO: mask input: -----
+INFO: user input: отмер
+INFO: mask input: -^---
+INFO: user input: асцит
+INFO: mask input: ^---^
+INFO: user input: тайга
+INFO: mask input: ++-^^
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - нетяг
+INFO: user input: осада
+INFO: mask input: -----
+INFO: user input: бирюк
+INFO: mask input: -----
+INFO: user input: емеля
+INFO: mask input: ^---^
+INFO: user input: фузея
+INFO: mask input: ---^^
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - сильф
+INFO: user input: булка
+INFO: mask input: --+--
+INFO: user input: голец
+INFO: mask input: --+--
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - ганка
+INFO: user input: песец
+INFO: mask input: -----
+INFO: user input: вобла
+INFO: mask input: ----+
+INFO: user input: акула
+INFO: mask input: ^^--+
+INFO: user input: рамка
+INFO: mask input: -+-++
+INFO: user input: шашка
+INFO: mask input: -+-++
+INFO: user input: кадка
+INFO: mask input: -+-++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - сукре
+INFO: user input: нутро
+INFO: mask input: -+-+-
+INFO: user input: будра
+INFO: mask input: -+-+-
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - эгрет
+INFO: user input: дадан
+INFO: mask input: -----
+INFO: user input: земцы
+INFO: mask input: -^---
+INFO: user input: офсет
+INFO: mask input: ---++
+INFO: user input: билет
+INFO: mask input: ---++
+INFO: user input: чечет
+INFO: mask input: ---++
+INFO: user input: рэкет
+INFO: mask input: ^^-++
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - шпага
+INFO: user input: старт
+INFO: mask input: --+--
+INFO: user input: аваль
+INFO: mask input: ^-+--
+INFO: user input: гиады
+INFO: mask input: ^-+--
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - вошка
+INFO: user input: поэма
+INFO: mask input: -+--+
+INFO: user input: дойка
+INFO: mask input: -+-++
+INFO: user input: шорка
+INFO: mask input: ^+-++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - сотка
+INFO: user input: степс
+INFO: mask input: +^---
+INFO: user input: сутаж
+INFO: mask input: +-+^-
+INFO: user input: сатин
+INFO: mask input: +^+--
+INFO: user input: сотая
+INFO: mask input: +++^-
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - ловцы
+INFO: user input: месть
+INFO: mask input: -----
+INFO: user input: кадка
+INFO: mask input: -----
+INFO: user input: рифля
+INFO: mask input: ---^-
+INFO: user input: хохол
+INFO: mask input: -+--^
+INFO: user input: голый
+INFO: mask input: -+^^-
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - бивак
+INFO: user input: кучер
+INFO: mask input: ^----
+INFO: user input: симка
+INFO: mask input: -+-^^
+INFO: user input: липка
+INFO: mask input: -+-^^
+INFO: user input: дикая
+INFO: mask input: -+^+-
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - тонус
+INFO: user input: дрязг
+INFO: mask input: -----
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithAutoAnswer(WordleTest.java:92), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - вазон
+INFO: user input: герой
+INFO: mask input: ---+-
+INFO: user input: гонец
+INFO: mask input: -^^--
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithMultipleAttempts(WordleTest.java:65), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - танец
+INFO: user input: гонец
+INFO: mask input: --+++
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithImmediateWin(WordleTest.java:37), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - флюид
+INFO: WordleGame - В слове не корректные символы
+INFO: user input: гонец
+INFO: mask input: -----
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithInvalidInput(WordleTest.java:120), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - позер
+INFO: user input: нутро
+INFO: mask input: ---^^
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithAutoAnswer(WordleTest.java:92), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - тюрок
+INFO: user input: герой
+INFO: mask input: --++-
+INFO: user input: гонец
+INFO: mask input: -^---
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithMultipleAttempts(WordleTest.java:65), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - банту
+INFO: user input: гонец
+INFO: mask input: --+--
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithImmediateWin(WordleTest.java:37), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - телок
+INFO: WordleGame - В слове не корректные символы
+INFO: user input: гонец
+INFO: mask input: -^-^-
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithInvalidInput(WordleTest.java:120), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - кишка
+INFO: user input: колон
+INFO: mask input: +----
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithAutoAnswer(WordleTest.java:92), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - парта
+INFO: user input: герой
+INFO: mask input: --+--
+INFO: user input: гонец
+INFO: mask input: -----
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithMultipleAttempts(WordleTest.java:65), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - выгар
+INFO: user input: гонец
+INFO: mask input: ^----
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithImmediateWin(WordleTest.java:37), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - щекот
+INFO: WordleGame - В слове не корректные символы
+INFO: user input: гонец
+INFO: mask input: -^-^-
+EXCEPTION: [java.base/java.util.Scanner.nextLine(Scanner.java:1660), ru.yandex.practicum.Wordle.main(Wordle.java:39), ru.yandex.practicum.WordleTest.testMainWithInvalidInput(WordleTest.java:120), java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103), java.base/java.lang.reflect.Method.invoke(Method.java:580), org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628), org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127), org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), java.base/java.util.ArrayList.forEach(ArrayList.java:1596), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125), org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135), org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123), org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73), org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122), org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80), org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32), org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57), org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229), org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197), org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191), org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128), com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57), com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38), com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11), com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35), com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231), com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)]
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - алкил
+INFO: user input: духан
+INFO: mask input: ---^-
+INFO: user input: лабаз
+INFO: mask input: ^^---
+INFO: user input: смола
+INFO: mask input: ---^^
+INFO: user input: лепта
+INFO: mask input: ^---^
+INFO: user input: кашли
+INFO: mask input: ^^-^^
+INFO: user input: илька
+INFO: mask input: ^+-^^
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - клефт
+INFO: user input: булга
+INFO: mask input: --^--
+INFO: user input: вызол
+INFO: mask input: ----^
+INFO: user input: клерк
+INFO: mask input: +++--
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - жучка
+INFO: user input: лодка
+INFO: mask input: ---++
+INFO: user input: мушка
+INFO: mask input: -+-++
+INFO: user input: кучка
+INFO: mask input: -++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - детка
+INFO: user input: кроше
+INFO: mask input: ^---^
+INFO: user input: тесак
+INFO: mask input: ^+-^^
+INFO: user input: ветка
+INFO: mask input: -++++
+INFO: user input: летка
+INFO: mask input: -++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - изыск
+INFO: user input: ингуш
+INFO: mask input: +----
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - шуруп
+INFO: user input: минер
+INFO: mask input: ----^
+INFO: user input: робот
+INFO: mask input: ^----
+INFO: user input: гарус
+INFO: mask input: --++-
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - мякиш
+INFO: user input: дрожь
+INFO: mask input: -----
+INFO: user input: лютик
+INFO: mask input: ---+^
+INFO: user input: мазик
+INFO: mask input: +--+^
+INFO: user input: мимик
+INFO: mask input: +--+^
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - таймс
+INFO: user input: выпек
+INFO: mask input: -----
+INFO: user input: ашрам
+INFO: mask input: ^---^
+INFO: user input: дамба
+INFO: mask input: -+^--
+INFO: user input: мания
+INFO: mask input: ^+---
+INFO: user input: самум
+INFO: mask input: ^+^--
+INFO: user input: масть
+INFO: mask input: ^+^^-
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - бытье
+INFO: user input: читка
+INFO: mask input: --+--
+INFO: user input: футер
+INFO: mask input: --+^-
+INFO: user input: нытье
+INFO: mask input: -++++
+INFO: user input: мытье
+INFO: mask input: -++++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - искус
+INFO: user input: аббат
+INFO: mask input: -----
+INFO: user input: рыжий
+INFO: mask input: ---^-
+INFO: user input: нивух
+INFO: mask input: -^-+-
+INFO: user input: иомуд
+INFO: mask input: +--+-
+INFO: user input: испуг
+INFO: mask input: ++-+-
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - сеанс
+INFO: user input: кивер
+INFO: mask input: ---^-
+INFO: user input: обмет
+INFO: mask input: ---^-
+INFO: user input: салеп
+INFO: mask input: +^-^-
+INFO: user input: седан
+INFO: mask input: ++-^^
+INFO: user input: сенаж
+INFO: mask input: ++^^-
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - бобик
+INFO: user input: ванна
+INFO: mask input: -----
+INFO: user input: гриль
+INFO: mask input: --^--
+INFO: user input: комми
+INFO: mask input: ^+--^
+INFO: user input: кофий
+INFO: mask input: ^+-+-
+INFO: user input: коцит
+INFO: mask input: ^+-+-
+INFO: user input: копие
+INFO: mask input: ^+-+-
+INFO: user status win game: false
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - барит
+INFO: user input: верже
+INFO: mask input: --+--
+INFO: user input: бармы
+INFO: mask input: +++--
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================
+INFO: dictionary loading start
+INFO: dictionary loading completed
+INFO: dictionary has 4165 words
+INFO: WordleGame - game created
+INFO: ====================
+INFO: WordleGame - START GAME
+INFO: dictionary generated secret word - дышло
+INFO: user input: гирло
+INFO: mask input: ---++
+INFO: user status win game: true
+INFO: WordleGame - END GAME
+INFO: ====================

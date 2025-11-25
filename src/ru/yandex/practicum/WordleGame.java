@@ -16,7 +16,7 @@ import java.util.List;
 не забудьте про специальные типы исключений для игровых и неигровых ошибок
  */
 public class WordleGame {
-
+    private static final int START_GAME_STEPS = 6;
     private final Logger logger;
     private final WordleDictionary dictionary;
     private final WordleAuto auto;
@@ -30,7 +30,7 @@ public class WordleGame {
         this.logger = logger;
         answers = new ArrayList<>();
         masks = new ArrayList<>();
-        step = 6;
+        step = START_GAME_STEPS;
         winGame = false;
         auto = new WordleAuto(dictionary.getDictionaryList());
         this.logger.info("WordleGame - game created");

@@ -1,6 +1,7 @@
 package ru.yandex.practicum;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
     на выходе должен быть класс WordleDictionary
  */
 public class WordleDictionaryLoader {
+    private static final int WORDLE_WORD_LENGTH = 5;
     private final Logger logger;
     private final String worldsFileName;
 
@@ -24,10 +26,10 @@ public class WordleDictionaryLoader {
         try (BufferedReader reader =
                      new BufferedReader(
                              new InputStreamReader(
-                                     new FileInputStream(worldsFileName)))) {
+                                     new FileInputStream(worldsFileName), StandardCharsets.UTF_8))) {
             while (reader.ready()) {
                 String word = reader.readLine();
-                if (word.length() == 5) {
+                if (word.length() == WORDLE_WORD_LENGTH) {
                     words.add(WordleUtil.normalizeWord(word));
                 }
             }
